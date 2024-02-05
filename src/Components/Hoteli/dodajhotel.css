@@ -1,0 +1,127 @@
+
+.kartice-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px; /* Optional margin for spacing */
+    height: 100%;
+    background-color: #557a56;
+  }
+  
+
+  .kartica1 {
+    max-width: 900px;
+    max-height: 100%;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .kartica1 img {
+    max-width: 30%; /* Maksimalna širina slike je 100% širine roditeljskog elementa (div.kartica) */
+    height: auto; /* Automatsko očuvanje odnosa širine i visine */
+    display: block; /* Postavljanje slike kao blok elementa */
+    margin: 10px auto; /* Postavljanje margina za centriranje slike */
+  }
+  /* Header styling */
+  .kartica1 h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* CloudinaryUploadWidget styling */
+  .kartica1 .cloudinary-button {
+    background-color: #4caf50;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+ 
+  
+  /* Input fields styling */
+  .kartica1 label {
+    display: block;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .kartica1 input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    margin-top: 3px;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  
+  /* Button styling */
+  .kartica1 button {
+    background-color: #4caf50;
+    color: white;
+    padding: 11px 12px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto; 
+    display: block; 
+    align-items: center;
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.button1 {
+    cursor: pointer;
+    margin: auto; 
+    display: block; 
+    align-items: center;
+    text-align: center;
+}
+  /* Responsive styling */
+  @media screen and (max-width: 768px) {
+    .kartica {
+      padding: 10px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
+  /* Styles for information about rooms */
+  .sobe {
+    margin-top: 20px;
+  }
+  
+  .sobe h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .sobe div {
+    margin-top: 15px;
+  }
+  
+  .sobe button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
